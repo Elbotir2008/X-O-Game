@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.line {
+  position: absolute;
+  width: 201px;
+  height: 2px;
+  background-color: #000;
+}
+.line1 {
+  top: 33%;
+}
+.line2 {
+  top: 67%;
+}
+
+.line3 {
+  transform: rotate(90deg);
+  top: 50%;
+  left: 18%;
+}
+.line4 {
+  transform: rotate(90deg);
+  top: 50%;
+  left: -18%;
+}
+.item {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 55px;
+  cursor: pointer;
+  font-size: 40px;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  font-family: sans-serif;
+  letter-spacing: 1.7px;
+  color: chartreuse;
+  text-align: center;
+}
+.winner {
+  color: red;
+}
+button {
+  position: absolute;
+  top: 70%;
+  cursor: pointer;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 8px 80px;
+  color: #fff;
+  border: 1px solid chartreuse;
+  transition: 0.1s linear;
+}
+button:hover {
+  transition: 0.1s linear;
+  background-color: #fff;
+  color: chartreuse;
+  outline: none;
+}
