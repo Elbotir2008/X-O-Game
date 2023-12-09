@@ -4,6 +4,9 @@ body {
   align-items: center;
   height: 95vh;
 }
+html {
+  outline: none;
+}
 .box {
   position: relative;
   width: 200px;
